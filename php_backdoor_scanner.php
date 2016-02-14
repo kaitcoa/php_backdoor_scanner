@@ -19,7 +19,14 @@ $suspicious_strings = array(
     'milw0rm.com',
     '$IIIIIIIIIIIl',
     'SubhashDasyam.com',
-    '31337');
+    '31337', 
+    'passthru',
+     'shell_exec',
+      'base64_decode',
+      'phpinfo',
+      'system',
+      'eval',
+      '' );
 $suspicious_files = array();
 
 // false positives
