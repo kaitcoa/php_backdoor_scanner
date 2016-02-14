@@ -26,7 +26,7 @@ $suspicious_strings = array(
       'phpinfo',
       'system',
       'eval',
-      '' );
+      'ftp' );
 $suspicious_files = array();
 
 // false positives
