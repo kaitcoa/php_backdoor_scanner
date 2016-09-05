@@ -4,7 +4,7 @@
 $config['target_dir'] = "/home";
 $config['output_file'] = "output/results_".date("Y-m-d").".txt";
 $config['false_positives_file'] = "false_positives.txt";
-$config['email'] = "sysop@radicaldesigns.org";
+$config['email'] = "some@email.org";
 
 // files are suspicious if they contain any of these strings
 $suspicious_strings = array(
